@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <de.hdodenhof.circleImage.CircleImageView
+        android:id="@+id/iv_msg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/login_default_avatar"/>
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lucy"
+        android:textSize="16sp"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@+id/iv_msg"
+        android:layout_alignBaseline="@+id/iv_msg"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/iv_msg"
+        android:layout_margin="10dp"
+        android:background="@color/common_gray_color"/>
+</RelativeLayout>
